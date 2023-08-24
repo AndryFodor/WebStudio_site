@@ -12,6 +12,8 @@ body{
     cursor: default;
 }
 
+/*1245px - 97.3vw*/
+ /*490px = 81vh*/
 
 .logo-ref{
     text-decoration: none;
@@ -32,7 +34,6 @@ body{
 }
 
 header {
-    /*490px = 81vh*/
     height: 9vh;
     margin-top: -2.48vh;
     padding: 9.92vh 10.16vw;
@@ -154,7 +155,6 @@ header .contacts img {
 
 
 .sec1 .button{
-    /*1245px - 97.3vw*/
     width: 16.88vw;
     height: 8.27vh;
     border-radius: .5em;
@@ -175,6 +175,28 @@ header .contacts img {
 
 .sec1 .button:hover{
     border: solid #FFF;
+}
+
+.sec1 dialog{
+    width: 38.265vw;
+    height: 88vh;
+    border: none;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.sec1 .close{
+    width: 30px;
+    height: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10em;
+    border: rgba(0, 0, 0, 0.10) solid 1px;
+    margin-left: 35.5vw;
+    margin-top: 1vh;
+    cursor: pointer;
 }
 
 .sec2{
@@ -292,40 +314,40 @@ header .contacts img {
 }
 
 .sec4 .social{
-    margin: 16px 32px 35px 32px;
+    margin: 2.645vh 2.501vw 5.785vh 2.501vw;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
+    column-gap: 2.345vw;
 }
 
 
 .sec4 .instagram{
-    width: 20px;
+    width: 1.563vw;
 }
 
 .sec4 .instagram:hover{
-    width: 45px;
-    margin: -12px -13px -15px -12px;
+    width: 3.517vw;
+    margin: -1.984vh -1.016vw -2.48vh -.938vw;
 }
 
 .sec4 .twitter{
-    width: 23px;
-    margin-bottom: -5px;
+    width: 1.798vw;
+    margin-bottom: -0.827vh;
 }
 
 .sec4 .twitter:hover{
-    width: 45px;
-    margin: -13px -10px -12px -12px;
+    width: 3.518vw;
+    margin: -2.149vh -.782vw -1.984vh -.938vw;
 }
 
 .circle-container {
-    width: 46px;
-    height: 46px;
+    width: 3.595vw;
+    height: 7.604vh;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: -13px -20px 0px -15px;
+    margin: -2.149vh -1.563vw 0vh -1.172vw;
 }
 
 .circle-container:hover{
@@ -333,21 +355,21 @@ header .contacts img {
 }
 
 .circle-container svg{
-    width: 20px;
-    height: 20px;
+    width: 1.563vw;
+    height: 3.306vh;
 }
 
 .sec4 .linkedin{
-    width: 20px;
+    width: 1.563vw;
 }
 
 .sec4 .linkedin:hover{
-    width: 45px;
-    margin: -13px -15px -12px -13px;
+    width: 3.517vw;
+    margin: -2.149vh -1.172vw -1.984vh -1.016vw;
 }
 
 .sec5{
-    margin: 94px 7.1vw;
+    margin: 15.539vh 7.1vw;
 }
 
 .sec5 h2{
@@ -358,7 +380,7 @@ header .contacts img {
 }
 
 .sec5 img{
-    width: 145px;
+    width: 11.332vw;
 }
 
 .sec5 li{

@@ -112,3 +112,14 @@ for(let i = 0; i < Elementsvg.length; i++){
 }
 
 
+let buttonForOpenDialog = doc.querySelector('.sec1 button'),
+    modal = doc.querySelector('.sec1 dialog'),
+    buttonForCloseDialog = doc.querySelector('.sec1 .close');
+
+    buttonForOpenDialog.addEventListener('click', () => {
+        modal.showModal();
+    });
+
+    buttonForCloseDialog.addEventListener('click', () => {
+        modal.close();
+    })
